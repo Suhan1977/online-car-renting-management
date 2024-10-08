@@ -1,0 +1,42 @@
+h1{
+    font-weight:lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-weight: bolder;
+    font-size: 400;
+    font-size:xx-large;
+    color:hotpink;
+}
+table{
+    background-color:wheat;
+    text-align: center;
+}
+tr{
+    text-align: center;
+}
+td{
+    text-align: center;
+    font-size:small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight: bold;
+    color:darksalmon;
+}
+body{
+    background: linear-gradient(135deg,#fab2ff,#1984e5);
+}
+p{
+    color:brown;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+h1{
+    color:crimson;
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 400%;
+}

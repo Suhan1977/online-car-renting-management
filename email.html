@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link href="policy.css" rel="stylesheet"></link>
+        <script>
+            function send() {
+                     Email.send({
+                       host:"smtp.gmail.com",
+                        username:"mulchandanisuhani5@gmail.com",
+                        password:"",
+                        to:'mulchandanisuhani5@gmail.com',
+                        from: document.getElementById("email").value,
+                        subject:"book car",
+                        body:"test message",
+                }).then(message => alert(message));
+            }
+        </script>
+    <style>
+        body{
+            text-transform: capitalize;
+        }
+        input,textarea{
+       width: 50%;
+        height: 40px;
+        margin: 10px 0px;
+    }
+    p{
+    width: 60%;
+    height: 40px;
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: x-large;
+    }
+    </style>
+    </head>
+    <table border="1">
+    <center>
+        <h1>Email form</h1>
+    <form method="post" action="email.php">
+        <p>Enter Name</p><br>
+        <input type="text" name="name" placeholder="enter name">
+        <br>
+        <p>Enter Email</p><br>
+        <input type="email" name="email" placeholder="enter email">
+        <br>
+        <p>Enter Subject</p><br>
+        <input type="text" name="subject" placeholder="enter subject">
+        <br>
+        <p>Enter message</p><br>
+        <textarea name="message" placeholder="enter message"></textarea>
+        <br>
+        <p><input type="submit" value="send" name="b1" onclick="send()" ></p>
+    </form>
+</table>
+    </center>
+   </html>

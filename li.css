@@ -1,0 +1,123 @@
+img{
+    border-radius: 900%;
+    border:5px solid turquoise;
+    width: 15%;
+}
+
+h1{
+    margin-bottom: 2%;
+    margin-left:5%;
+    font-weight:bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:normal;
+    font-size: 40px;
+    color:mediumorchid;
+    color:linear-gradient(135deg,#f9ce34,#ee2a7b,#6228d7);
+}
+table{
+    background-color:wheat;
+    text-align: center;
+}
+.d{
+    display: flex;
+    margin-left: 20%;
+}
+
+tr{
+    text-align: center;
+}
+td{
+    text-align: center;
+    font-size:large;
+    font-style:normal;
+    font-weight: bold;
+    background-color:darksalmon;
+    border-color:violet;
+    border-radius: 40%;
+    height: 100%;
+    width: 15%;
+}
+body{
+    text-transform: capitalize;
+    background-image: url("i4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
+    font-family: cursive;
+}
+ul{
+position: relative;
+top:50%;
+bottom: 50%;
+color:lightcoral;
+font-weight: bolder;
+font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
+font-size: x-large;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+}
+.lg{
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform:translate(-50% ,-50%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.lg h1{
+    margin: 20px;
+    text-align: center;
+}
+.lg input{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+}
+.ul car{
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    color:lightcoral;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;  
+} 
+a{
+    text-align: center;
+    position:relative;
+    top:30%;
+    bottom: 60%;
+}
+.id{
+    width: 20%;
+    height: 40px;
+    margin: 10px 0px;
+    background-color:thistle;
+    border: none;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:brown;
+    margin-top: 30%;
+    margin-bottom: 2px;
+}   
+p{
+    width: 10%;
+    height: 40px;
+    font-size: medium;
+    font-family: cursive;
+    font-weight: 100;
+    font-weight: bolder;
+    color:salmon;
+}

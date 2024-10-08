@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link href="acc.css" rel="stylesheet">
+        <script lang="javascript">
+            function display()
+            {
+                n=f1.t1.value;
+                p=f1.t1.value;
+                if(n==p)
+                {
+                    alert("login sucessfull");
+                    window.location.href=("detial.php");
+                }
+                else
+                {
+                    alert("login unsucessfull");
+                }
+            }
+        </script>
+    </head>
+<body>
+    <center>
+    <h1>ADMIN LOGIN</h1>
+    <form method="post" name="f1" >
+        Enter Username:
+        <input type="text" name="t1" required >
+        <br><br>
+        Enter Password:
+        <input type="password" name="t2" required >
+        <br><br>
+        <input type="button" value="SUBMIT" onclick="display()" />
+    </form>
+    </center>
+</body>
+</html>

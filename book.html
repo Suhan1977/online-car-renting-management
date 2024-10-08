@@ -1,0 +1,99 @@
+<html>
+<head>
+<link href="book.css" rel="stylesheet"></link>
+</head>
+<body>
+	<center><h1> SMRT Services</h1></center>
+<table cellspacing="5" cellpadding="5">
+	<tr>
+			<ul>
+				<td><li><a href="homefinal.html">Home</a></li></td>               	
+				<td><li><a href="li.html">Login</a></li></td>
+				<td><li><a href="ct.html">Our Car Types</a></li></td>
+				<td><li><a href="aboutus.html">About Us</li></a></td>
+				<td><li><a href="contact.html">Contact</li></a></td>
+				<td><li><a href="terms.html">Terms</a> And <a href="policy.html">Policy</a></li>				</li>
+			</ul>
+	</tr>
+	</table>
+
+			<div class="property_details">
+						<h2>BOOK YOUR CAR: </h2>
+					</div>
+				</li>
+				<div class="details">
+				<form method="post" action="book.php">
+					<table>
+						<tr>
+							<td> Enter Passenger's Full Name:</td>
+							<td><input type="text" name="name" required></td>
+						</tr>
+						<tr>	
+						<td>Choose your Car Make Type :</td>
+						<td>
+							  <select id="Car_type" name="type">
+							  <option value="sedan">Sedan</option>
+							  <option value="hatchback">HatchBack</option>
+							  <option value="suv">SUV</option>
+							  </select>
+							  </td>
+						</tr>	
+						<tr>
+							<td>Enter the Car Name you wish to rent :</td>
+							<td><input type="text" name="vname" placeholder="Enter  car's model name" required></td>
+						</tr>
+							<tr>	
+							<td>Hire Range(INR) :</td>
+							<td><input type="number" name="hr" placeholder="enter the price" /></td>
+						</tr>	
+						
+						<tr>
+							<td>Gender:</td>
+							<td>
+								<select name="gender">
+									<option> Male </option>
+									<option> Female </option>
+									<option>Others</option>
+								</select>
+							</td>
+						</tr>
+						 <tr>
+							<td> Source Location(from):</td>
+							<td><input type="text" name="source" required></td>
+						</tr>
+						<tr>
+							<td> Destination Location(to):</td>
+							<td><input type="text" name="dens" required></td>
+						</tr>
+						<tr>
+							<td> Date :</td><br>
+							<td><input type="date" name="date" required></td><br>
+						</tr>
+						<tr>
+							<td> Number of days :</td><br>
+							<td><input type="number" name="nod"  required></td><br>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" value="Book Car" name="save" class="id" />				</td>
+						</tr>
+					</table>
+				</form>
+					<ul>
+						<li type=square>OUR COMPANY</li>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li><a href="terms.html">Terms</a></li>
+						<li><a href="policy.html">Policy</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</li>
+					<ul>
+						<li type=square>OUR CAR TYPES</li>
+						<li><a href="sedan.html">Sedan</a></li>
+						<li><a href="hatchback.html">Hatchback</a></li>
+						<li><a href="suv.html">SUV</a></li>
+						
+					</ul>
+				</li>
+
+					</body>
+</html>
